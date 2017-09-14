@@ -1,3 +1,45 @@
-body {
-  background-color: #2A2A2A;
+.main {
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
+.card {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+  color: #fff;
+  height: 70vh;
+}
+
+.row {
+  display: flex;
+  height: 90vh;
+}
+
+.col {
+  margin: auto;
+}
+
+.navbar {
+  color: #ccc;
+}
+
+h1 {
+  font-family: 'Noticia Text', serif;
+  font-size: 300%;
+}
+
+h4 {
+  font-family: 'Space Mono', monospace;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  font-size: .9em;
 }
